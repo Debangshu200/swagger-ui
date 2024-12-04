@@ -6,7 +6,7 @@ const path = require("path")
 const deepExtend = require("deep-extend")
 const webpack = require("webpack")
 const TerserPlugin = require("terser-webpack-plugin")
-const nodeExternals = require("webpack-node-externals"
+const nodeExternals = require("webpack-node-externals")
 
 const { getRepoInfo, getDevtool } = require("./_helpers")
 const pkg = require("../package.json")
